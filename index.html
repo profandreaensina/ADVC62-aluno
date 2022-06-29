@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
   <title> Exemplo de Bootstrap </title>
   <meta charset="utf-8">
@@ -8,52 +9,51 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
+  
 <body>
 
-<div class="container">
+    <div class="container">
 
-    <section id="app">
-        <h1>Aplicativos</h1>
-        <div class="line"></div>
-        <!-- 01. adicionar iframe de 2 aplicativos-->
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/iSiVBtvufsBHYQcq9Cf908Vy4z9LipEPzkcabfRcjRs/embed"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/NAET3-7G_63Ip8sZdhYDpDPSzuwEc41xzRQVEKm3iwU/embed"></iframe>
-    </section>
+        <section id="app">
+            <h1>Aplicativos</h1>
+            <div class="line"></div>
+            <!-- 01. adicionar iframe de 2 aplicativos-->
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/iSiVBtvufsBHYQcq9Cf908Vy4z9LipEPzkcabfRcjRs/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/NAET3-7G_63Ip8sZdhYDpDPSzuwEc41xzRQVEKm3iwU/embed"></iframe>
+        </section>
 
+        <h2> Clique no jogo desejado para comecar! </h2>
 
+        <h5> Esses jogos foram criados no laboratorio de jogos. Clique no jogo para jogar </h5>
 
-<h2> Clique no jogo desejado para comecar! </h2>
+        <div id="myCarrossel" class="carousel slide" >
+            <center>
 
-<h5> Esses jogos foram criados no laboratorio de jogos. Clique no jogo para jogar </h5>
+                <div class="carousel-inner">
 
-<div id="myCarrossel" class="carousel slide" >
-  <center>
-   
-    <div class="carousel-inner">
-      
-      <div class="item active">
-        <a href="" target="_blank">
-          <!-- 02. adicionar imagem do game 1 como filho do ancora -->
-        </a>
-        <p> Jogo de Corrida de Carro </p>
-      </div>
+                  <div class="item active">
+                    <a href="" target="_blank">
+                      <!-- 02. adicionar imagem do game 1 como filho do ancora -->
+                    </a>
+                    <p> Jogo de Corrida de Carro </p>
+                  </div>
 
-      <!-- 03. adicionar segundo slide - game 2-->
-      
+                  <!-- 03. adicionar segundo slide - game 2-->
+
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarrossel" data-slide="anterior">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="myCarrossel" data-slide="próximo">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+
+            </center>
+        </div>
+
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarrossel" data-slide="anterior">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-    </a>
-    <a class="right carousel-control" href="myCarrossel" data-slide="próximo">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-    </a>
-
-  </center>
-  </div>
-
-</div>
 
 </body>
 </html>
